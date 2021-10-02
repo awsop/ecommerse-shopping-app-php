@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "onlineshop";
+$servername = "wordpress.cs6royptlt8t.us-west-2.rds.amazonaws.com";
+$username = "wordpress";
+$password = "wordpress123";
+$db = "ecommerse";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
